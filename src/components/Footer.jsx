@@ -18,7 +18,7 @@ function Footer() {
           </p>
         </div>
         <div className="footer-col">
-          <h4>Navegación</h4>
+          <h4>Secciones</h4>
           <a href="#">Inicio</a>
           <a href="#">Productos</a>
           <a href="#">Nosotros</a>
