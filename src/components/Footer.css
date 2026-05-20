@@ -1,0 +1,102 @@
+.footer {
+  background-color: #1a0f00;
+  color: #f5e6c8;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.footer-newsletter-bar {
+  background-color: #f5a623;
+  color: #1a0f00;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer-newsletter-bar span {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.newsletter-form {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.newsletter-form input {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  width: 200px;
+}
+
+.newsletter-form button {
+  padding: 10px 20px;
+  background-color: #1a0f00;
+  color: #f5a623;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.footer-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 50px 40px;
+  gap: 40px;
+  border-bottom: 1px solid #3b2a1a;
+}
+
+.footer-brand h2 {
+  color: #f5a623;
+  margin-bottom: 10px;
+}
+
+.footer-brand p {
+  color: #c9a97a;
+  max-width: 180px;
+  line-height: 1.6;
+  font-size: 0.9rem;
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-col h4 {
+  color: #f5a623;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+  margin-bottom: 6px;
+}
+
+.footer-col a {
+  color: #c9a97a;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.footer-col a:hover {
+  color: #f5a623;
+}
+
+.footer-col p {
+  color: #c9a97a;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.85rem;
+  color: #6b4c2a;
+}
