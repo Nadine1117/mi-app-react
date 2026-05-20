@@ -13,7 +13,9 @@ function Footer() {
       <div className="footer-main">
         <div className="footer-brand">
           <h2>🍯 Apiario El Valle</h2>
-          <p>Miel pura y natural desde las Sierras del Valle, Maldonado.</p>
+          <p>
+            Producción artesanal de miel desde las Sierras del Valle, Maldonado.
+          </p>
         </div>
         <div className="footer-col">
           <h4>Navegación</h4>
