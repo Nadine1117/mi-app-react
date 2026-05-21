@@ -37,6 +37,12 @@ function Footer({ nombre }) {
           <p>✉️ info@apiarioelvalle.com</p>
         </div>
       </div>
+      <button
+        className="btn-arriba"
+        onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+      >
+        ⬆ Volver arriba
+      </button>
       <div className="footer-bottom">
         <p>© 2026 {nombre}. Todos los derechos reservados. 🐝</p>
       </div>
