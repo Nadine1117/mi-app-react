@@ -1,5 +1,9 @@
 .footer {
   background-color: #1a0f00;
+  background-image:
+    radial-gradient(circle at 25px 25px, #2a1500 2px, transparent 2px),
+    radial-gradient(circle at 75px 75px, #2a1500 2px, transparent 2px);
+  background-size: 50px 50px;
   color: #f5e6c8;
   font-family: "Segoe UI", sans-serif;
 }
@@ -53,9 +57,9 @@
   border-bottom: 1px solid #3b2a1a;
 }
 
-.footer-logo {
-  width: 140px;
-  margin-bottom: 6px;
+.footer-brand h2 {
+  color: #f5a623;
+  margin-bottom: 10px;
 }
 
 .footer-brand {
@@ -120,6 +124,31 @@
 .footer-bottom {
   text-align: center;
   padding: 20px;
+  background-color: #f5a623;
+  color: #1a0f00;
   font-size: 0.85rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.footer-badge {
+  display: inline-block;
+  background-color: #f5a623;
+  color: #1a0f00;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-top: 8px;
+}
+.footer-desde {
   color: #6b4c2a;
+  font-size: 0.8rem;
+  font-style: italic;
+  margin-top: 4px;
+}
+.footer * {
+  cursor:
+    url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32'><text y='28' font-size='28'>🐝</text></svg>")
+      16 16,
+    auto;
 }

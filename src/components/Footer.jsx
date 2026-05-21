@@ -1,5 +1,4 @@
 import "./Footer.css";
-import logo from "../assets/logo.png";
 
 function Footer({ nombre }) {
   return (
@@ -11,14 +10,18 @@ function Footer({ nombre }) {
           <button>Suscribirse</button>
         </div>
       </div>
+
       <div className="footer-main">
         <div className="footer-brand">
-          <img src={logo} alt="Apiario El Valle" className="footer-logo" />
+          <h2>🍯 {nombre}</h2>
           <p>
             Productores artesanales de miel pura y natural ubicados en las
             Sierras del Valle, Maldonado.
           </p>
+          <span className="footer-badge">🍯 100% Natural</span>
+          <p className="footer-desde">Desde 2020 produciendo miel artesanal</p>
         </div>
+
         <div className="footer-col">
           <h4>Secciones</h4>
           <a href="#">Inicio</a>
