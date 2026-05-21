@@ -1,6 +1,6 @@
 import "./Footer.css";
 
-function Footer() {
+function Footer({ nombre }) {
   return (
     <footer className="footer">
       <div className="footer-newsletter-bar">
@@ -12,9 +12,10 @@ function Footer() {
       </div>
       <div className="footer-main">
         <div className="footer-brand">
-          <h2>🍯 Apiario El Valle</h2>
+          <h2>🍯 {nombre}</h2>
           <p>
-            Producción artesanal de miel desde las Sierras del Valle, Maldonado.
+            Productores artesanales de miel pura y natural ubicados en las
+            Sierras del Valle, Maldonado.
           </p>
         </div>
         <div className="footer-col">
@@ -37,7 +38,7 @@ function Footer() {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>© 2026 Apiario El Valle. Todos los derechos reservados. 🐝</p>
+        <p>© 2026 {nombre}. Todos los derechos reservados. 🐝</p>
       </div>
     </footer>
   );
