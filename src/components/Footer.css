@@ -1,0 +1,154 @@
+.footer {
+  background-color: #1a0f00;
+  background-image:
+    radial-gradient(circle at 25px 25px, #2a1500 2px, transparent 2px),
+    radial-gradient(circle at 75px 75px, #2a1500 2px, transparent 2px);
+  background-size: 50px 50px;
+  color: #f5e6c8;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.footer-newsletter-bar {
+  background-color: #f5a623;
+  color: #1a0f00;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer-newsletter-bar span {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.newsletter-form {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.newsletter-form input {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  width: 200px;
+}
+
+.newsletter-form button {
+  padding: 10px 20px;
+  background-color: #1a0f00;
+  color: #f5a623;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.footer-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 50px 40px;
+  border-bottom: 1px solid #3b2a1a;
+}
+
+.footer-brand h2 {
+  color: #f5a623;
+  margin-bottom: 10px;
+}
+
+.footer-brand {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.footer-brand p {
+  color: #c9a97a;
+  max-width: 180px;
+  line-height: 1.6;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-col h4 {
+  color: #f5a623;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+}
+
+.footer-col a {
+  color: #c9a97a;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.footer-col a:hover {
+  color: #f5a623;
+}
+
+.footer-col p {
+  color: #c9a97a;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.btn-arriba {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #f5a623;
+  color: #1a0f00;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-arriba:hover {
+  background-color: #e09400;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 20px;
+  background-color: #f5a623;
+  color: #1a0f00;
+  font-size: 0.85rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.footer-badge {
+  display: inline-block;
+  background-color: #f5a623;
+  color: #1a0f00;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-top: 8px;
+}
+.footer-desde {
+  color: #6b4c2a;
+  font-size: 0.8rem;
+  font-style: italic;
+  margin-top: 4px;
+}
+.footer * {
+  cursor:
+    url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32'><text y='28' font-size='28'>🐝</text></svg>")
+      16 16,
+    auto;
+}
